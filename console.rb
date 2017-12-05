@@ -7,3 +7,10 @@ bounty1 = Bounty.new( "name" => "Vicotira",
                       )
 
 bounty1.save()
+
+bounty1.bounty_value = 700
+
+Bounty.update(bounty1)
+
+# binding.pry()
+nil
